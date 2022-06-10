@@ -1,0 +1,44 @@
+﻿  board.cpp
+C:\Users\heypo\Desktop\Main\Main\chess.h(11): error C3646: 'color': unknown override specifier
+C:\Users\heypo\Desktop\Main\Main\chess.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\heypo\Desktop\Main\Main\board.cpp(19): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\heypo\Desktop\Main\Main\board.cpp(46): error C3867: 'Board::init': non-standard syntax; use '&' to create a pointer to member
+C:\Users\heypo\Desktop\Main\Main\board.cpp(58): error C3867: 'Board::draw': non-standard syntax; use '&' to create a pointer to member
+  helper.cpp
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(4): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(10): error C2059: syntax error: ')'
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(11): error C2143: syntax error: missing ';' before '{'
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(12): error C2046: illegal case
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(13): error C2046: illegal case
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(12): error C2043: illegal break
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(13): error C2043: illegal break
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(47): error C2059: syntax error: ')'
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(48): error C2143: syntax error: missing ';' before '{'
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(49): error C2046: illegal case
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(50): error C2046: illegal case
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(49): error C2043: illegal break
+C:\Users\heypo\Desktop\Main\Main\helper.cpp(50): error C2043: illegal break
+  Main.cpp
+C:\Users\heypo\Desktop\Main\Main\chess.h(11): error C3646: 'color': unknown override specifier
+C:\Users\heypo\Desktop\Main\Main\chess.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  chess.cpp
+  setting.cpp
+  user.cpp
+C:\Users\heypo\Desktop\Main\Main\chess.h(11): error C3646: 'color': unknown override specifier
+C:\Users\heypo\Desktop\Main\Main\chess.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\heypo\Desktop\Main\Main\user.cpp(5): error C2511: 'bool User::check_win(Cell &)': overloaded member function not found in 'User'
+  C:\Users\heypo\Desktop\Main\Main\user.h(7): note: see declaration of 'User'
+C:\Users\heypo\Desktop\Main\Main\user.cpp(9): error C2511: 'bool User::ForU(Cell &)': overloaded member function not found in 'User'
+  C:\Users\heypo\Desktop\Main\Main\user.h(7): note: see declaration of 'User'
+C:\Users\heypo\Desktop\Main\Main\user.cpp(10): error C2039: 'color': is not a member of 'Chess'
+  C:\Users\heypo\Desktop\Main\Main\chess.h(7): note: see declaration of 'Chess'
+C:\Users\heypo\Desktop\Main\Main\user.cpp(10): error C2671: 'User::ForU': static member functions do not have 'this' pointers
+  Generating Code...
